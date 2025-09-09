@@ -48,3 +48,30 @@
     max-width: 800px;
     margin: 0 auto;
 }
+
+
+.aboutme {
+    padding: 21px 0;
+}
+
+.table {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+   
+}
+
+.table_hobbies {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border: 1px solid #008000;
+}
+
+.table_social {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border: 1px solid #008000;
+}
+
+.table_hobbies_item {
+    
+}
