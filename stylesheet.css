@@ -1,7 +1,9 @@
-* {
+*{
     margin: 0;
     padding: 0;
+    font-family: Inter; 
 }
+
 .avatars {
     display: flex;
     gap: 30px;
@@ -14,6 +16,11 @@
     justify-content: center;
 }
 
+
+.contacts>p {
+    font-size: 14px;
+}
+
 .bio {
     display: flex;
     flex-direction: column;
@@ -21,6 +28,7 @@
     flex-grow: 1;
     justify-content: center;
     gap: 5px;
+    font-size: 14px;
 }
 
 
@@ -34,7 +42,7 @@
 .contacts {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: center; 
     gap: 5px;
     flex-grow: 1;
     align-items: flex-end;
@@ -52,30 +60,33 @@
 
 .aboutme {
     padding: 21px 0;
+    font-size: 14px;
 }
 
 .table {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    margin-top: 40px;
+    margin-top: 43px;
 }
 
 .table_hobbies_title,
 .table_social_title {
     border-bottom: 1px solid green;
-    text-align: center;
+    text-align: center; 
     color: green;
     padding: 5px 0;
-    font-weight: bold;
+    font-weight: 600;
 }
 
 .table_hobbies {
-    border: 1px solid #008000;
+    border: 1px solid #5A9645;
     border-radius: 10px 0 0 10px;
+    justify-content: center;
+    align-items: center;
 }
 
 .table_social {
-    border:1px solid #008000;
+    border:1px solid #5A9645;
     border-radius: 0 10px 10px 0;
 }
 
@@ -83,14 +94,16 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-grow: 1;
+    padding: 15px;
 }
 
 .table_list_hobbies,
 .table_social_list {
     align-items: center;
     justify-content: center;
-    padding: 20px;
+    align-self: center;
+    justify-self: center;
+    
     
 }
 
@@ -150,7 +163,7 @@
     justify-content: center;
     padding: 5px;
     border-radius: 5px;
-    margin-top: 10px;
+    margin-top: 67px;
 }
 
 .grid-container {
@@ -158,20 +171,44 @@
     grid-template-columns: 1fr 1fr;
     grid-column-start: 1;
     grid-column-end: 3;
-    gap: 5px;
+    gap: 15px;
     font-size: 21px;
-    
+    border-radius: 10px;
 }
 
 .grid_container_item_name,
 .grid_container_item_tel {
     padding: 10px 14px;
     font-size: 21;
+    border-radius: 5px;
+    margin-top: 15px;
+    border: 1px solid #B8B8B8;
 }
 
 .grid_container_item {
     grid-column-start: 1;
     grid-column-end: 3;
     font-size: 21;
-    
+    padding: 10px 14px;
+    border-radius: 5px;
+    border: 1px solid #B8B8B8;
+}
+
+.button {
+    display: flex;
+    justify-self: center;
+    align-items: center;
+}
+
+.button_item {
+    background-color: #5A9645;
+    color: white;
+    margin-top: 14px;
+    border-radius: 5px;
+    width: fit-content;
+    height: fit-content;
+    justify-self: center;
+    align-items: center;
+    padding: 10px 20px;
+    border: none;
 }
